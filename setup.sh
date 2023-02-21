@@ -8,3 +8,4 @@ for i in $(ls aliases); do
 done
 
 ln -fs $PWD/.zshrc $HOME/.zshrc
+ln -fs $PWD/starship.toml $HOME/.config/starship.toml

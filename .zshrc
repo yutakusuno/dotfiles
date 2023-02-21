@@ -14,3 +14,6 @@ export HISTFILE=${HOME}/.zsh_history
 setopt share_history  # Share history with other terminal
 setopt hist_ignore_space  # Ignore history if it exists space at the head of the line
 setopt hist_ignore_all_dups  # Ignore old history if it duplicates
+
+# Load
+eval "$(starship init zsh)"

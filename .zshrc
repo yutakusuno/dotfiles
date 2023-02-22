@@ -1,5 +1,6 @@
 [ -f ~/.git.zsh ] && . ~/.git.zsh
 [ -f ~/.aliases.zsh ] && . ~/.aliases.zsh
+[ -f ~/.docker.zsh ] && . ~/.docker.zsh
 
 # Language
 export LANGUAGE="en_US.UTF-8"

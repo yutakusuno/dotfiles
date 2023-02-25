@@ -1,0 +1,28 @@
+# secify where to install applications
+cask_args appdir: "/Applications"
+
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# Desktop applications
+cask "appcleaner"
+cask "docker"
+cask "firefox"
+cask "google-chrome"
+cask "iterm2"
+cask "notion"
+cask "skitch"
+cask "slack"
+cask "sourcetree"
+cask "zoom"
+
+# CLI applications
+brew "asdf"
+brew "exa"
+brew "git"
+brew "jq"
+brew "mas"
+brew "starship"
+brew "tmux"
+brew "wget"

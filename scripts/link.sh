@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/zsh
 
 set -eux
 
-# Symbolic link
+# Symbolic links
 for i in $(ls aliases); do
   ln -fs $PWD/aliases/$i $HOME/.$i
 done

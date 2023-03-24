@@ -8,7 +8,6 @@ tap "homebrew/core"
 # Desktop applications
 cask "adobe-acrobat-reader"
 cask "appcleaner"
-cask "authy"
 cask "bitwarden"
 cask "deepl"
 cask "docker"

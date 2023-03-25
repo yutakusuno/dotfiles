@@ -1,3 +1,4 @@
 # these global versions managed by asdf
 nodejs 19.7.0
 python 3.11.2
+yarn 1.22.19

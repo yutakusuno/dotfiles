@@ -30,6 +30,7 @@ cask "zoom"
 # CLI applications
 brew "asdf"
 brew "awscli"
+brew "commitizen"
 brew "exa"
 brew "git"
 brew "gpg"

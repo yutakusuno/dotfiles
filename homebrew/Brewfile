@@ -25,7 +25,9 @@ cask "skitch"
 cask "slack"
 cask "sourcetree"
 cask "tableplus"
+cask "telegram"
 cask "visual-studio-code"
+cask "whatsapp"
 cask "zoom"
 
 # CLI applications

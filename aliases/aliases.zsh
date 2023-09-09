@@ -8,6 +8,7 @@ alias weatheryvr='curl -Acurl wttr.in/Vancouver'
 
 #  Repositories
 alias cddf='cd $HOME/Repositories/dotfiles'
+alias cdpw='cd $HOME/Repositories/portfolio-website'
 alias cdwwm='cd $HOME/Repositories/world-weather-map'
 
 # Ruby

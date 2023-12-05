@@ -4,6 +4,7 @@ cask_args appdir: "/Applications"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "mongodb/brew"
 
 # Desktop applications
 cask "adobe-acrobat-reader"

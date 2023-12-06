@@ -8,7 +8,7 @@ for i in $(ls aliases); do
 done
 
 for i in $(ls gnupg); do
-  ln -fs $PWD/gnupg/$i $HOME/.gnupg/.$i
+  ln -fs $PWD/gnupg/$i $HOME/.gnupg/$i
 done
 
 ln -fs $PWD/.zshrc $HOME/.zshrc

@@ -20,6 +20,7 @@ setopt hist_ignore_all_dups # Ignore old history if it duplicates
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+PATH=~/.console-ninja/.bin:$PATH
 
 # Load
 eval "$(starship init zsh)"

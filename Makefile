@@ -13,7 +13,7 @@ link:
 	@scripts/link.sh
 	@echo "\033[0;32mDone.\033[0m"
 
-# Install macOS applications.
+# Install brew packages
 brew:
 	@echo "\033[0;34mRun brew.sh\033[0m"
 	@scripts/brew.sh

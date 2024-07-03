@@ -8,6 +8,7 @@ tap "mongodb/brew"
 
 # Desktop applications
 cask "adobe-acrobat-reader"
+cask "amazon-q"
 cask "anki"
 cask "appcleaner"
 cask "bitwarden"

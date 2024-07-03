@@ -1,3 +1,6 @@
+# Amazon Q pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
+
 [ -f ~/.git.zsh ] && . ~/.git.zsh
 [ -f ~/.aliases.zsh ] && . ~/.aliases.zsh
 [ -f ~/.docker.zsh ] && . ~/.docker.zsh
@@ -28,3 +31,6 @@ eval "$(starship init zsh)"
 
 # Telling Git about my GPG key
 export GPG_TTY=$(tty)
+
+# Amazon Q post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"

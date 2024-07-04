@@ -1,0 +1,5 @@
+# Load
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# Telling Git about my GPG key
+export GPG_TTY=$(tty)

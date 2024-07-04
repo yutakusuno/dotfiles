@@ -17,6 +17,7 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
+  "editor.accessibilitySupport": "off",
 
   // Prettier settings
   "prettier.singleQuote": true,
@@ -56,5 +57,10 @@
     "scminput": false,
     "yaml": true
   },
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  // Environment variables
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  }
 }

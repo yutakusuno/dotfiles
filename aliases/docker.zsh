@@ -1,4 +1,5 @@
 alias opdk='open -a Docker'
+alias opob='open -a OrbStack'
 
 # Start the docker compose stack in the current directory
 alias dcu="docker compose up -d"

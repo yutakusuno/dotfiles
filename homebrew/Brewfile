@@ -40,6 +40,7 @@ cask "whatsapp"
 cask "zoom"
 
 # CLI applications
+brew "act"
 brew "asdf"
 brew "awscli"
 brew "commitizen"

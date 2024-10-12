@@ -16,3 +16,4 @@ ln -fs $PWD/zsh/zprofile $HOME/.zprofile
 ln -fs $PWD/asdf/.tool-versions $HOME/.tool-versions
 ln -fs $PWD/starship.toml $HOME/.config/starship.toml
 ln -fs $PWD/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+ln -fs $PWD/cursorrules/settings.json $HOME/Library/Application\ Support/Cursor/User/settings.json

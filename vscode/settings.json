@@ -46,9 +46,6 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
 
-  // Spell check settings
-  "cSpell.userWords": [],
-
   // GitHub Copilot settings
   "github.copilot.enable": {
     "*": true,

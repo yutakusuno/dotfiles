@@ -54,10 +54,14 @@
     "scminput": false,
     "yaml": true
   },
+  "github.copilot.chat.edits.enabled": true,
   "github.copilot.editor.enableAutoCompletions": true,
 
   // Environment variables
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
-  }
+  },
+
+  // Debug settings
+  "console-ninja.featureSet": "Community"
 }

@@ -63,5 +63,7 @@
   },
 
   // Debug settings
-  "console-ninja.featureSet": "Community"
+  "console-ninja.featureSet": "Community",
+  "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
+  "github.copilot.nextEditSuggestions.enabled": true
 }

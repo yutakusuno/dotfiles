@@ -65,5 +65,6 @@
   // Debug settings
   "console-ninja.featureSet": "Community",
   "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "docker.extension.enableComposeLanguageServer": false
 }

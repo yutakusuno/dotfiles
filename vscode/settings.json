@@ -66,5 +66,14 @@
   "console-ninja.featureSet": "Community",
   "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
   "github.copilot.nextEditSuggestions.enabled": true,
-  "docker.extension.enableComposeLanguageServer": false
+  "docker.extension.enableComposeLanguageServer": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-http-request-pre-request.instructions.md": true,
+    "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-folder-pre-request.instructions.md": true
+  }
 }

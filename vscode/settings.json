@@ -54,8 +54,6 @@
     "scminput": false,
     "yaml": true
   },
-  "github.copilot.chat.edits.enabled": true,
-  "github.copilot.editor.enableAutoCompletions": true,
 
   // Environment variables
   "terminal.integrated.env.osx": {
@@ -69,11 +67,29 @@
   "docker.extension.enableComposeLanguageServer": false,
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
+    ".claude/rules": true,
+    "~/.copilot/instructions": true,
+    "~/.claude/rules": true,
     "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-http-request-post-response.instructions.md": true,
     "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-http-request-pre-request.instructions.md": true,
     "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-collections-post-response.instructions.md": true,
     "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-collections-pre-request.instructions.md": true,
     "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-folder-post-response.instructions.md": true,
     "/var/folders/x2/2t_sb02j1vd2g0l33k8724hh0000gn/T/postman-folder-pre-request.instructions.md": true
-  }
+  },
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "chat.viewSessions.orientation": "stacked"
 }

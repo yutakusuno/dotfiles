@@ -7,6 +7,9 @@ style = "bold blue"
 [aws.region_aliases]
 ap-northeast-1 = "jp"
 
+[battery]
+disabled = true
+
 [character]
 success_symbol = "[❯](bold green)"
 error_symbol = "[❯](bold red)"

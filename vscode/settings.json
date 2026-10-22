@@ -91,5 +91,20 @@
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "chat.viewSessions.orientation": "stacked"
+  "chat.viewSessions.orientation": "stacked",
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.selectedModel": "haiku",
+  "git.confirmSync": false,
+  "markdown.marp.html": "all",
+  "files.autoSave": "afterDelay",
+  "githubPullRequests.pullBranch": "never",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ],
+  "git.enableSmartCommit": true
 }
